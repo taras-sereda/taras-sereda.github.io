@@ -1,9 +1,10 @@
 ---
 layout: post
-title: i3 for multilinguals
+title: i3wm for multilinguals
+tags: linux productivity i3wm
 ---
 
-When I heard about  i3 window manager for Manjaro ArchLinux, I thought, I want to try it and use it as an alternative to macOS, which I like a lot!
+One day I've heard about [i3 tiling window manager](https://i3wm.org/). I thought, it looks like `tmux`  applied to GUI applications. (it turned out to be even more powerful!) So I decided to install Linux  with i3 window manager on my mac book pro, and use it as an alternative to macOS, which I like a lot.
 
 *Disclaimer:* using i3 is an adventure. You need to configure many things. The learning curve is steep, though along the way you are building an understanding that you can do whatever you can imagine with Linux and i3 as a window manager.
 
@@ -84,9 +85,9 @@ In this post I want to share my experience on how to add second input language. 
 
    
 
-   After re reading config you should have language indicator displayed on your bar! :)
+   After re reading config you should have language indicator displayed on your bar!
 
-   ![rere](/assets/img/1657470528.png)
+   ![i3statusbar](/assets/img/1657470528.png)
 
-That's all! Now switching languages doesn't feel awkward.
+That's all! Now switching languages doesn't feel awkward.  :)
 
