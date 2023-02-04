@@ -37,7 +37,7 @@ whisper_stt.transcribe(wav_clip, initial_prompt="Ambulante")
 ```
 
 
-Notice that now **Ambulante** is transcribed correctly. Also, the probability of this transcript increased. Interestingly, adding El Hilo to the prompt helped to increase probability even more. So the model pays attention to prompts and also "enjoys" seeing something similar to its hypothesis. Lastly, I decided to mislead model
+Notice that now **Ambulante** is transcribed correctly. Also, the probability of this transcript increased. Interestingly, adding **El Hilo** to the prompt helped to increase probability even more. So the model pays attention to prompts and also "enjoys" seeing something similar to its hypothesis. Lastly, I decided to mislead the model
 ```
 whisper_stt.transcribe(wav_clip, initial_prompt="Radio Aminilantes")
 {
@@ -47,8 +47,8 @@ whisper_stt.transcribe(wav_clip, initial_prompt="Radio Aminilantes")
 }
 ```
 
-Well, now it follows custom spelling and transcribes words paying attention to prompts; now we have **Radio Aminilantes**. 
+Well, now it follows custom spelling and transcribes words paying attention to prompts; now we have **Radio Aminilantes** exactly the way we prompted it to be. 
 
-Overall this is pretty cool, and now I'm wondering how transcriptions could be improved for domain-specific data with a lot of terminologies: medicine, etc. I think this is not a part of the model's design and is a nice side effect, though a powerful one. There is no explicit structure or guarantee that model will pay attention to the prompt. This can be designed explicitly and incorporated in the decoding process.
+Overall this is pretty cool, and now I'm wondering how transcriptions could be improved for domain-specific data with a lot of terminologies: medicine, etc. I think this is not a part of the model's design and is a nice side effect, though a powerful one. There is no explicit structure or guarantee that model will pay attention to the prompt. However this can be designed explicitly and incorporated in the decoding process.
 
 Another idea is to use prompting for creating pronunciation dictionaries because today's high-quality TTS models fail to pronounce foreign words that are uncommon in English. Let me know if you'd like to work on this problem; we could join our efforts. Also, if you'll find more interesting behavior modes of whisper - please share your findings!
