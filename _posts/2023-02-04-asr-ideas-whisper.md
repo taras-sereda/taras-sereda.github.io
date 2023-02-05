@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thoughts on how modern ASR can be improved
-tags: deep_learning, ASR, Whisper, LLM
+tags: deep_learning, ASR, Whisper
 ---
 
 
@@ -12,8 +12,8 @@ Whisper was trained on 680,000 hours of audio, predominantly English, with only 
 
 On MLS (multi-lingual Librispeech), it has already reached 4.2 % WER - this is remarkable; it's on par with native Spanish speakers' capabilities. Imagine the degree of synergy if a human expert were involved only for problematic words, where ASR results are of low confidence.
 
-For my exploration, I picked [El Hilo](https://elhilo.audio/) podcast produced by Radio Ambulante. This fact is important - because "Radio Ambulante" is a proper noun, and organically, it will be difficult for the algorithm to recognize it correctly.
-<iframe style="border: solid 1px #e4edf2;" src="https://stitcher2.acast.com/livestitches/f14ff97a49411c995e53e6c4fd1c52ed.mp3?aid=63d34c0fdd7a730010e0f4f3&chid=28f8ef07-8339-59a0-9f1a-e02c649a6fea&ci=V4Rj05YNkUzITAcftZ_hP3BoFHUuLUhOf4KNGHhq9fzMYzSrhdZxJA%3D%3D&pf=rss&sv=sphinx%401.147.3&uid=ab67e9e6360bccc54ad11a1437986df4&Expires=1675470739033&Key-Pair-Id=K38CTQXUSD0VVB&Signature=aBE01ZrBE0tOIHbMubDdiE30XnMgPi~9Z4ZdA49xS7qDwBjWDUQa2YQ1XdFtR-K5RZnfjg9wf0YpAezE50nUNS2peBo~M~k6cagolPJ2RqlVm~zrtrFbS2urzuWxoO5wdJ9t-i3BL~3cm5MmTUESehuZN8IBSIoBCL3v1l~Mb~x0g8mTX5368~baSxjpvW77-HAUHab0~ejI9iq3nQxjFbJE4HX5a7Qbb04svxtTK1isQ3IsFDwYP9Wv1O5j5ws64PjNktJKenr7fFlhb-YZHdOIbL36~GZYXGiRFYhq6MQzTLQ91asb7LSeZdJVwidc3Q8iTfPSdqsbT9Scnht22w__" height="40" width="220" frameborder="0" scrolling="no" />
+For my exploration, I picked [El Hilo](https://elhilo.audio/) podcast produced by Radio Ambulante. This fact is important - because "Radio Ambulante" is a proper noun, it's not common to see words Radio and Ambulante next to each other, it will be difficult for the model to recognize it correctly.
+<audio controls src="https://sphinx.acast.com/p/acast/s/el-hilo/e/63d34c0fdd7a730010e0f4f3/media.mp3" />
 
 
 Here is what I've got intially:
@@ -37,7 +37,10 @@ whisper_stt.transcribe(wav_clip, initial_prompt="Ambulante")
 ```
 
 
-Notice that now **Ambulante** is transcribed correctly. Also, the probability of this transcript increased. Interestingly, adding **El Hilo** to the prompt helped to increase probability even more. So the model pays attention to prompts and also "enjoys" seeing something similar to its hypothesis. Lastly, I decided to mislead the model
+Notice that now **Ambulante** is transcribed correctly. Also, the probability of this transcript increased. Interestingly, adding **El Hilo** to the prompt helped to increase probability even more. So the model pays attention to prompts and also "enjoys" seeing something similar to its hypothesis. It still struggles to transcribe **<span style="color:red">E</span>studios**, perhaps due to the model being trained in a multilingual setting with a huge imbalance towards English data.
+
+
+Lastly, I decided to mislead the model
 ```
 whisper_stt.transcribe(wav_clip, initial_prompt="Radio Aminilantes")
 {
