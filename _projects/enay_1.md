@@ -2,7 +2,7 @@
 layout: page
 title: ЕНЕЙ-1(Aeneas-1), a DIY synthesizer
 description: learning to solder through building a moog-style synth
-img: assets/img/IMG_6724.jpg
+img: assets/img/IMG_6724_web.jpg
 importance: 1
 category: fun
 published: True
@@ -75,7 +75,7 @@ Completing this project would have been impossible without the support of the ha
 Lastly, here is the result of my work in action. I'm quite pleased with it and look forward to participating in a jam session. With this synthesizer, it's possible to create some psychedelic and immersive sounds. Check it out in the video below.
 
 <div class="row justify-content-sm-center">
-<iframe width="770" height="520" src="https://www.youtube.com/embed/sDyTO6rowH0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="770" height="520" src="https://youtube.com/embed/sDyTO6rowH0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 <div class="caption">
     Short demo of me playing repetitive things
