@@ -27,10 +27,10 @@ Getting back to the Moog-style synth. This project holds a special place in my h
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/IMG_0928.jpg" title="image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/IMG_0928_web.jpg" title="image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/IMG_0932.jpg" title="image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/IMG_0932_web.jpg" title="image" class="img-fluid rounded z-depth-1" %}
     </div>
 
 </div>
@@ -46,7 +46,7 @@ Eager to continue my journey, I searched for a unique enclosure for my synthesiz
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/IMG_2696.jpg" title="image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/IMG_2696_web.jpg" title="image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -59,10 +59,10 @@ Debugging the arpeggiator circuit was a difficult task, but it taught me a lot a
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/IMG_1530.jpg" title="image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/IMG_1530_web.jpg" title="image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/IMG_1439.jpg" title="image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/IMG_1439_web.jpg" title="image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
