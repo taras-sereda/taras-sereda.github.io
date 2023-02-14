@@ -10,13 +10,6 @@ published: True
 
 Recently, I embarked on my most epic DIY project to date - a hand-crafted analog synthesizer. This project was a true adventure for me and kept me in high spirits during the COVID lockdown period. On weekends, I enjoy experimenting with various circuit prototypes, and for most of my previous projects, I was content with using a breadboard. However, when my friend Artem showed me a [DIY Moog-style synth](https://www.instructables.com/Moog-Style-Synth/) project, I was inspired to take on the challenge. With clear and easy-to-follow instructions from [lonesoulsurfer](https://www.instructables.com/member/lonesoulsurfer/), we were able to assemble our very own Moog-style synthesizers. BTW Artem builds many other DIY projects, his last project is a [wireless sustain pedal.](https://twitter.com/iamTema/status/1620369431066210309?s=20&t=4fBbFuvxAryPLOpjkdRBWw)
 
-Here are some samples I recorded last weekend. Using an arpeggiator with light-dependent resistors elevates the overall experience to a much more interesting level.
-
-<div class="row justify-content-sm-center">
-<iframe width="60%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1569948205&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-</div>
-<br>
-
 A brief note about the project's name. ENAY-1, or Aeneas in English, is named after the main character in the famous Ukrainian burlesque poem ["Eneida,"](https://uk.wikipedia.org/wiki/%D0%95%D0%BD%D0%B5%D1%97%D0%B4%D0%B0_(%D0%9A%D0%BE%D1%82%D0%BB%D1%8F%D1%80%D0%B5%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9)) written by Ivan Kotliarevsky. This book was one of my favorites from my childhood, where Kotliarevsky draws parallels between the Trojan heroes and Ukrainian Cossacks.
 
 <div class="row justify-content-sm-center">
@@ -85,7 +78,6 @@ Lastly, here is the result of my work in action. I'm quite pleased with it and l
 <div class="caption">
     Short demo of me playing repetitive things
 </div>
-
 
 I really hope that soon I'll continue my journey building DIY synths. If you're interested in building something similar, don't hesitate to reach out to me. I'll be happy to assist. Cheers!
 
