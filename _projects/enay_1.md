@@ -72,8 +72,8 @@ Completing this project would have been impossible without the support of the ha
 
 Lastly, here is the result of my work in action. I'm quite pleased with it and look forward to participating in a jam session. With this synthesizer, it's possible to create some psychedelic and immersive sounds. Check it out in the video below.
 
-<div class="row justify-content-sm-center">
-<iframe width="770" height="520" src="https://youtube.com/embed/sDyTO6rowH0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div style="max-width: 100%; overflow: hidden;">
+<iframe width="100%" height="auto" src="https://youtube.com/embed/sDyTO6rowH0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 <div class="caption">
     Short demo of me playing repetitive things
