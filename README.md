@@ -1,3 +1,5 @@
+# Notes
+1. serve locally: `bundle exec jekyll serve`
 # al-folio
 
 [![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
