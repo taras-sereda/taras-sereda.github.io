@@ -43,29 +43,29 @@ In this blog post I'll share how I setup vim as Python Development Environment. 
 
 Bellow is the more feature complete version of `.vimrc`. Also you can grab my ever-changing `.vimrc` configured for both rust and python development from [here](https://github.com/taras-sereda/dotfiles/blob/main/.vimrc)
  
-    ```
-    " Enable syntax highlighting
-    syntax enable
-    " Display line numbers to the left
-    set number
-    filetype plugin indent on
-    set backspace=indent,eol,start
+```
+" Enable syntax highlighting
+syntax enable
+" Display line numbers to the left
+set number
+filetype plugin indent on
+set backspace=indent,eol,start
 
-    call plug#begin("~/.vim/plugged")
+call plug#begin("~/.vim/plugged")
 
-    Plug 'dense-analysis/ale'
-    let g:ale_linters = {'python': ['pyright']}
-    let g:ale_fixers = {'*': ['trim_whitespace', 'remove_trailing_lines'], 'python': ['black', 'isort']}
+Plug 'dense-analysis/ale'
+let g:ale_linters = {'python': ['pyright']}
+let g:ale_fixers = {'*': ['trim_whitespace', 'remove_trailing_lines'], 'python': ['black', 'isort']}
 
-    Plug 'davidhalter/jedi-vim'
-    Plug 'ervandew/supertab'
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'junegunn/fzf.vim'
-    Plug 'airblade/vim-gitgutter'
+Plug 'davidhalter/jedi-vim'
+Plug 'ervandew/supertab'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'airblade/vim-gitgutter'
 
-    call plug#end()
+call plug#end()
 
-    nnoremap <silent> <C-f> :Files<CR>
+nnoremap <silent> <C-f> :Files<CR>
 ```
 
 I hope this guide will help you in setting up your own development environment, so that you'll have full control on features you have in the editor.
