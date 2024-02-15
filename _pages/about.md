@@ -7,7 +7,7 @@ profile:
   align: right 
   image: prof_pic.png
   address: >
-    <p>Kyiv, Ukraine</p>
+    <p>Planet Earth, Milky Way</p>
     <p>taras.y.sereda@proton.me</p>
 
 news: false  # includes a list of news items
@@ -15,5 +15,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I'm Machine Learner/Startuper/Lecturer/Traveler/Piano player/Film Photographer/DIY Enthusiast. My career is built around Machine Learning research projects in vision and audio. At this moment I’m working on an exciting project: [CrossLingual](https://crosslingual.io). Voice content localization platform, which transfers the speaker’s authentic voice and delivery style to world languages. 
-
+I'm a Machine Learning Researcher, Engineer, and DIY Enthusiast. My career is built around Machine Learning research projects in vision and audio. At this moment, I’m providing consultancy services concerning speech and audio processing, particularly for building text-to-speech (TTS) systems. My interests lie in self-supervised methods and discrete representations of audio.
