@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Lecture Notes UCU-TTS. Lecture 1. Introduction"
+tags: teaching ML
 
 ---
 ## Overview
@@ -63,10 +64,10 @@ word                    score    start   end
 
 <div class="row justify-content-sm-center">
     <div>
-        {% include figure.html path="assets/img/Pasted image 20240411122731.png" title="image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Pasted image 20240411122731.png" title="image" class="img-fluid rounded" %}
     </div>
     <div>
-        {% include figure.html path="assets/img/Pasted image 20240411122919.png" title="image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Pasted image 20240411122919.png" title="image" class="img-fluid rounded" %}
     </div>    
 </div>
 
