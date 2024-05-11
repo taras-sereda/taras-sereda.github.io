@@ -36,7 +36,7 @@ Alright, pencil is overly sensitive, this is already informative. Now the questi
 Here is the solution I came up with. Take a piece of aluminum foil and wrap around the bottom part of the pencil, it's important to find a good placement for the wrapper. If you place it too close to the tip - pen becomes unresponsive at all. If you move it too far - then there is no effect of the shielding. So once you found a correct placement for the foil wrapper, in my case it's 1.5 cm from the tip of the pencil, secure the foil with electrical tape. That's it, this fix is robust enough and now I can fully enjoy taking notes on my a bit-modified and personalized Kindle scribe. I hope the described solution will help you to fix your devices too!
 
 <div class="row justify-content-sm-center">
-	<div  style="width: 60%;">
+	<div  style="col-sm-10">
 		{% include figure.html path="assets/img/IMG_0416.jpg" title="image" class="img-fluid rounded z-depth-1" %}
 	</div>
 </div>
