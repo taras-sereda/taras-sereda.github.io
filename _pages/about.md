@@ -5,9 +5,9 @@ permalink: /
 
 profile:
   align: right 
-  image: prof_pic.png
+  image: IMG_4285.jpg
   address: >
-    <p>Planet Earth, Milky Way</p>
+    <!-- <p>Planet Earth, Milky Way</p> -->
     <p>taras.y.sereda@proton.me</p>
 
 news: false  # includes a list of news items
