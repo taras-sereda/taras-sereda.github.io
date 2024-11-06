@@ -15,4 +15,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I'm a Machine Learning Researcher, Engineer, and DIY Enthusiast. My career is built around Machine Learning research projects in vision and audio. At this moment, I’m providing consultancy services concerning speech and audio processing, particularly for building text-to-speech (TTS) systems. My interests lie in self-supervised methods and discrete representations of audio.
+I'm a Machine Learning Engineer and DIY Enthusiast. I’m providing consultancy services concerning speech and audio processing. My interests lie in self-supervised methods and discrete representations. I'm excited about potential of deep learning for material science.
