@@ -9,3 +9,10 @@ LLMs are helpful for the tasks they are explicitly teached on. There is no evide
 
 TLDR; gpt-5.5 beats claude-4.8 is a short game that consists of 39 moves. at the same time gpt-5.5 is a more expensive player that spent $8 while claude only $5. 
 Every game starts with classic opening `e2e4` I didn't see LLMs being more experimental then that.
+
+<div style="max-width: 100%; overflow: hidden;">
+<iframe width="100%" height="auto" src="https://youtube.com/shorts/_Zfw8jO2KCs?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<div class="caption">
+    Short demo of me playing repetitive things
+</div>
