@@ -36,7 +36,7 @@ The first 10 moves in each game were identical for both White and Black. It's ni
 
 ### What's next?
 
-I'm now mostly interested in evaluating LLMs on chess puzzles: problems where a certain sequence of moves is guaranteed to lead to the globally optimal outcome. Another experiment would be to change the representation of the state in favor of vectorized SVG images of the board. I think this could even be more efficient in terms of reasoning tokens used, since FEN is a compressed representation that the model must mentally unpack, whereas an image shows the board directly.
+I'm now mostly interested in evaluating LLMs on chess puzzles: problems in which a certain sequence of moves is guaranteed to lead to the globally optimal outcome. Another experiment would be to change the representation of the state in favor of vectorized SVG images of the board. I think this could even be more efficient in terms of reasoning tokens used, since FEN is a compressed representation that the model must mentally unpack, whereas an image shows the board directly.
 
 To advance open-ended research and the discovery of optimal algorithms, new materials, or new drugs, it's crucial to have models that are capable of planning. And today's frontier LLMs are not yet well suited for the general-purpose setting of this task. Something is missing yet...
 
