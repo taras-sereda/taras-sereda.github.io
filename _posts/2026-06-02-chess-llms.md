@@ -35,6 +35,7 @@ GPT-5.5 won the first game in 39 moves, but it was also the more expensive playe
 The first 10 moves in each game were identical for both White and Black. It's nice to have reproducible results, but at the same time there was no evidence of exploration from either of the LLMs, and I didn't observe an interesting strategy in their moves.
 
 ### What's next?
+I want to rerun the same experiment but with enough funds for both models to play at least 3 games. I don't have high expectations, but it will be nice to know which model is the winner.
 
 I'm now mostly interested in evaluating LLMs on chess puzzles: problems in which a certain sequence of moves is guaranteed to lead to the globally optimal outcome. Another experiment would be to change the representation of the state in favor of vectorized SVG images of the board. I think this could even be more efficient in terms of reasoning tokens used, since FEN is a compressed representation that the model must mentally unpack, whereas an image shows the board directly.
 
